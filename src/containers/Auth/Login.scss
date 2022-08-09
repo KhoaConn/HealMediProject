@@ -1,0 +1,98 @@
+.login-background{
+    //background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    font-family: "work sans";
+    height: 100vh;
+
+    .login-container{
+        width: 400px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 500px;
+        background-color: aliceblue;
+        border-radius: 25px;
+        
+
+        .login-content{
+            padding: 25px;
+            
+        
+            .text-login{
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+            .input-login{
+                margin: 8px 0;
+
+                .custom-input-password{
+                    display: flex;
+                    position: relative;
+
+                    i{
+                        position: absolute;
+                        right: 8px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn-login{
+                width: 100%;
+                border-radius: 25px;
+                height: 40px;
+                font-size: 1.3rem;
+                color: white;
+                font-weight: 700;
+                background: linear-gradient(90deg, rgba(34,193,195,1) 0%,rgba(253,187,45,1) 100%);
+                border: none;
+                outline: none;
+                margin: 10px 0;
+
+            }
+            .social-login{
+                display: flex;
+                justify-content: center;
+                i{
+                    font-size: 35px;
+                    margin: 0 10px;
+                }
+                .fb{
+                    background-color: rgb(28, 28, 176);
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+                .gg{
+                    background-color: rgb(199, 4, 4);
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+                .tt{
+                    background-color: rgb(46, 194, 244);
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
